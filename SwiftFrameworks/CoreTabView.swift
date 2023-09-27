@@ -9,11 +9,11 @@ import SwiftUI
 
 struct CoreTabView: View {
     
-    @State private var toggleBool: Bool = false
+    @AppStorage("titleOn") var titleOn: Bool = true
     
     var body: some View {
         TabView {
-           FrameworksListView()
+           FrameworksListView(titleOn: titleOn)
                 .tabItem {
                     Label("Frameworks", systemImage: "list.bullet.circle")
                 }
@@ -21,7 +21,7 @@ struct CoreTabView: View {
                 .tabItem {
                     Label("Hello", systemImage: "person.circle")
                 }
-            SettingsView(selectedFramework: FrameworksBase.posts[0].frameworkName)
+            SettingsView(selectedFramework: FrameworksBase.posts[0].frameworkName, titleOn: $titleOn)
                 .tabItem {
                     Label("Settings", systemImage: "gear.circle.fill")
                 }

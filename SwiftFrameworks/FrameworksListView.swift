@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FrameworksListView: View {
+    
+    var titleOn: Bool
+    
     var body: some View {
         NavigationView {
             List {
@@ -18,12 +21,23 @@ struct FrameworksListView: View {
                 }
                 
             }
-            .navigationTitle("💻 Swift Frameworks")
-            
+            .applyConditionally(titleOn) {
+                $0.navigationTitle("💻 Swift Frameworks")
+            }
         }
     }
 }
 
 #Preview {
-    FrameworksListView()
+    FrameworksListView(titleOn: true)
+}
+
+extension View {
+    @ViewBuilder func applyConditionally<T: View>(_ condition: Bool, applied: (Self)->T) -> some View {
+        if condition {
+            applied(self)
+        } else {
+            self
+        }
+    }
 }

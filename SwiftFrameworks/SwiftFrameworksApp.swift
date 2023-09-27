@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct SwiftFrameworksApp: App {
+    
     var body: some Scene {
         WindowGroup {
             CoreTabView()
