@@ -17,10 +17,12 @@ struct CoreTabView: View {
                 .tabItem {
                     Label("Frameworks", systemImage: "list.bullet.circle")
                 }
-            HelloView()
+            
+            AppleView(titleOn: titleOn, selectedURLFramework: FrameworksBase.posts[0].frameworkName)
                 .tabItem {
-                    Label("Hello", systemImage: "person.circle")
+                    Label("Apple", systemImage: "apple.logo")
                 }
+            
             SettingsView(selectedFramework: FrameworksBase.posts[0].frameworkName, titleOn: $titleOn)
                 .tabItem {
                     Label("Settings", systemImage: "gear.circle.fill")

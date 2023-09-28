@@ -19,7 +19,6 @@ struct FrameworksListView: View {
                         InfoRow(framework: post)
                     }
                 }
-                
             }
             .applyConditionally(titleOn) {
                 $0.navigationTitle("💻 Swift Frameworks")

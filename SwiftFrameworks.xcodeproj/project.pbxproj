@@ -15,7 +15,7 @@
 		338A5C082AC1CC5200F38A87 /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C072AC1CC5200F38A87 /* InfoRow.swift */; };
 		338A5C0A2AC1CD1E00F38A87 /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C092AC1CD1E00F38A87 /* InfoDetails.swift */; };
 		338A5C0C2AC1DC2100F38A87 /* CoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C0B2AC1DC2100F38A87 /* CoreTabView.swift */; };
-		338A5C0E2AC1DCC000F38A87 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C0D2AC1DCC000F38A87 /* HelloView.swift */; };
+		338A5C0E2AC1DCC000F38A87 /* AppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C0D2AC1DCC000F38A87 /* AppleView.swift */; };
 		338A5C102AC1DE4900F38A87 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A5C0F2AC1DE4900F38A87 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		338A5C072AC1CC5200F38A87 /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		338A5C092AC1CD1E00F38A87 /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
 		338A5C0B2AC1DC2100F38A87 /* CoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTabView.swift; sourceTree = "<group>"; };
-		338A5C0D2AC1DCC000F38A87 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		338A5C0D2AC1DCC000F38A87 /* AppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleView.swift; sourceTree = "<group>"; };
 		338A5C0F2AC1DE4900F38A87 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 				338A5C042AC1C48800F38A87 /* Model */,
 				338A5BF62AC1BEF500F38A87 /* SwiftFrameworksApp.swift */,
 				338A5C0B2AC1DC2100F38A87 /* CoreTabView.swift */,
-				338A5C0D2AC1DCC000F38A87 /* HelloView.swift */,
+				338A5C0D2AC1DCC000F38A87 /* AppleView.swift */,
 				338A5BF82AC1BEF500F38A87 /* FrameworksListView.swift */,
 				338A5C0F2AC1DE4900F38A87 /* SettingsView.swift */,
 				338A5C072AC1CC5200F38A87 /* InfoRow.swift */,
@@ -169,7 +169,7 @@
 				338A5C0A2AC1CD1E00F38A87 /* InfoDetails.swift in Sources */,
 				338A5C062AC1C49200F38A87 /* Post.swift in Sources */,
 				338A5BF72AC1BEF500F38A87 /* SwiftFrameworksApp.swift in Sources */,
-				338A5C0E2AC1DCC000F38A87 /* HelloView.swift in Sources */,
+				338A5C0E2AC1DCC000F38A87 /* AppleView.swift in Sources */,
 				338A5C0C2AC1DC2100F38A87 /* CoreTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
